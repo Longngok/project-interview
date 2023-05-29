@@ -14,48 +14,49 @@
 <body>
     <header>
         <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
-        <nav>
-            <ul>
-                <li><a href="works.html"><b>Works</b></a></li>
-                <li><a href="blog.html"><b>Blog</b></a></li>
-                <li><a href=""><b>Contact</b></a></li>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list--item"><a class="navbar__link"  href="works.html">Works</a></li>
+                <li class="navbar__list--item"><a class="navbar__link"  href="blog.html">Blog</a></li>
+                <li class="navbar__list--item"><a class="navbar__link"  href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="works-detail">
         <section class="works-detail__banner">
-            <h1 class="works-detail__banner--headline">Designing Dashboards with usability in mind</h1>
-            <div class="works-detail__banner--meta">
-                <span class="works-detail__banner--date">2020</span>
-                <span class="works-detail__banner--tags">Dashboard, User Experience Design</span>
+            <h1 class="works-detail__title">Designing Dashboards with usability in mind</h1>
+            <div class="works-detail__meta">
+                <span class="feature-works__date works-detail__date">2020</span>
+                <span class="tags--font">Dashboard, User Experience Design</span>
             </div>
-            <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <img class="works-detail__section--img" src="./Pic/6-best-practices-for-Dashboard-Design-Justinmind-header-768x492.png" alt="">
+            <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <img class="works-detail__img" src="./img/6-best-practices-for-Dashboard-Design-Justinmind-header-768x492.png" alt="">
         </section>
 
         <section class="works-detail__content">
-            <h2 class="works-detail__content--headline2">Heading 1</h2>
-            <h3 class="works-detail__content--headline3">Heading 2</h3>
-            <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <img class="works-detail__content--img1" src="./Pic/toyota-ae86-car-anime-0cdm5j2bzz61icdk.jpg" alt="img-content-1">
-            <img class="works-detail__content--img2" src="./Pic/1557567429825mQH8PotXDSI7.jpg" alt="img-content-2">
+            <h2 class="works-detail__headline1">Heading 1</h2>
+            <h3 class="works-detail__headline2">Heading 2</h3>
+            <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <img class="works-detail__img works-detail__img--inner" src="./img/toyota-ae86-car-anime-0cdm5j2bzz61icdk.jpg" alt="img-content-1">
+            <img class="works-detail__img" src="./img/1557567429825mQH8PotXDSI7.jpg" alt="img-content-2">
         </section>
     </main>
         
     <footer>
-        <div class="body__container">
+        <div class="works-detail">
             <div class="footer__content">
-                <div class="footer__block">
-                    <a href="" class="footer__block--link"><img src="./img/icon/fb.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/insta.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/Group.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/Linkedin.png" alt=""></a>
-                </div>
-                <p>Copyright ©2020 All rights reserved</p>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/fb.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/insta.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/Group.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/Linkedin.png" alt=""></a></li>
+                    </ul>
+                <p class="footer__descripton">Copyright ©2020 All rights reserved</p>
             </div>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
 </html>

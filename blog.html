@@ -14,68 +14,73 @@
 <body>
     <header>
         <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
-        <nav>
-            <ul>
-                <li><a href="works.html"><b>Works</b></a></li>
-                <li><a href="blog.html"><b>Blog</b></a></li>
-                <li><a href=""><b>Contact</b></a></li>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list--item"><a class="navbar__link"  href="works.html">Works</a></li>
+                <li class="navbar__list--item"><a class="navbar__link"  href="blog.html">Blog</a></li>
+                <li class="navbar__list--item"><a class="navbar__link"  href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="blog">
-        <h1 class="blog__title">Blog</h1>
-        <section class="blog__section">
-            <h2 class="blog__section--title"><a href="">UI Interactions of the week</a></h2>
-            <div class="block__section--meta">
-                <span class="block__section--date">Feb 2019</span> 
-                <span class="block__section--tags">Express, Handlebars</span> 
+        <h1 class="title">Blog</h1>
+        <section class="blog__block">
+            <a class="blog__link" href=""><h2 class="blog__title">UI Interactions of the week</h2></a>
+            <div class="blog__meta">
+                <span class="tags--font blog__date">Feb 2019</span> 
+                <span class="line"></span>
+                <span class="tags--font blog__tags">Express, Handlebars</span> 
             </div>
-            <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </section>
 
-        <section class="blog__section">
-            <h2 class="blog__section--title"><a href="">UI Interactions of the week</a></h2>
-            <div class="block__section--meta">
-                <span class="block__section--date">Feb 2019</span> 
-                <span class="block__section--tags">Express, Handlebars</span> 
+        <section class="blog__block">
+            <a class="blog__link" href=""><h2 class="blog__title">UI Interactions of the week</h2></a>
+            <div class="blog__meta">
+                <span class="tags--font blog__date">Feb 2019</span> 
+                <span class="line"></span>
+                <span class="tags--font blog__tags">Express, Handlebars</span> 
             </div>
-            <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </section>
 
-        <section class="blog__section">
-            <h2 class="blog__section--title"><a href="">UI Interactions of the week</a></h2>
-            <div class="block__section--meta">
-                <span class="block__section--date">Feb 2019</span> 
-                <span class="block__section--tags">Express, Handlebars</span> 
+        <section class="blog__block">
+            <a class="blog__link" href=""><h2 class="blog__title">UI Interactions of the week</h2></a>
+            <div class="blog__meta">
+                <span class="tags--font blog__date">Feb 2019</span> 
+                <span class="line"></span>
+                <span class="tags--font blog__tags">Express, Handlebars</span> 
             </div>
-            <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </section>
 
-        <section class="blog__section">
-            <h2 class="blog__section--title"><a href="">UI Interactions of the week</a></h2>
-            <div class="block__section--meta">
-                <span class="block__section--date">Feb 2019</span> 
-                <span class="block__section--tags">Express, Handlebars</span> 
+        <section class="blog__block">
+            <a class="blog__link" href=""><h2 class="blog__title">UI Interactions of the week</h2></a>
+            <div class="blog__meta">
+                <span class="tags--font blog__date">Feb 2019</span> 
+                <span class="line"></span>
+                <span class="tags--font blog__tags">Express, Handlebars</span> 
             </div>
-            <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </section>
-    </main>
 
     
     <footer>
-        <div class="body__container">
+        <div class="container blog">
             <div class="footer__content">
-                <div class="footer__block">
-                    <a href="" class="footer__block--link"><img src="./img/icon/fb.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/insta.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/Group.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/Linkedin.png" alt=""></a>
-                </div>
-                <p>Copyright ©2020 All rights reserved</p>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/fb.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/insta.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/Group.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/Linkedin.png" alt=""></a></li>
+                    </ul>
+                <p class="footer__descripton">Copyright ©2020 All rights reserved</p>
             </div>
         </div>
     </footer>
+
+
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
 </html>

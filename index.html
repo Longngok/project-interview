@@ -14,25 +14,23 @@
 <body>
     <header>
         <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
-        <nav>
-            <ul>
-                <li><a href="works.html"><b>Works</b></a></li>
-                <li><a href="blog.html"><b>Blog</b></a></li>
-                <li><a href=""><b>Contact</b></a></li>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list--item"><a class="navbar__link"  href="works.html">Works</a></li>
+                <li class="navbar__list--item"><a class="navbar__link"  href="blog.html">Blog</a></li>
+                <li class="navbar__list--item"><a class="navbar__link"  href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="banner">
-            <div class="body__container">
+            <div class="container container--responsive">
                 <div class="banner__content">
-                    <div class="body__block">
-                        <h1 class="banner__title">Hi, I am John, Creative Technologist</h1>
-                        <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <div class="banner__btn">
-                            <a href="" class="banner__link">Download resume</a>
-                        </div>
+                    <div class="banner__block">
+                        <h1 class="title">Hi, I am John, Creative Technologist</h1>
+                        <p class="description description--responsive">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <a href="" class="banner__link">Download resume</a>
                     </div>
 
                     <div>
@@ -43,111 +41,118 @@
         </section>
 
        <section class="recent-post">
-            <div class="body__container">
+            <div class="container">
                 <div class="recent-post__heading">
-                    <h2 class="body__headline">Recent post<h2>
+                    <h2 class="headline">Recent post<h2>
                     <a class="recent-post__link" href="">View all</a>
                 </div>
 
-                <div class="recent-post__block">
-                    <div class="recent-post__item">
-                        <h3 class="body__headline recent-post__headline">Making a design system from scratch</h3>
+                <div class="recent-post__content">
+                    <div class="recent-post__block">
+                        <h3 class="headline recent-post__headline">Making a design system from scratch</h3>
                         <div class="recent-post__meta">
-                            <span class="body__description body__description--span recent-post__headline--span1">12 Feb 2020</span>
-                            <span class="body__description body__description--span recent-post__headline--span2">Design, Pattern</span>
+                            <span class="recent-post__date">12 Feb 2020</span>
+                            <span class="line"></span>
+                            <span class="recent-post__tags">Design, Pattern</span>
                         </div>
-                        <p class="body__description recent-post__inner--item1"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="descriptionecent-post__inner--item1"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
 
-                    <div class="recent-post__item">
-                        <h3 class="body__headline recent-post__headline">Creating pixel perfect icons in Figma</h3>
+                    <div class="recent-post__block">
+                        <h3 class="headline recent-post__headline">Creating pixel perfect icons in Figma</h3>
                         <div class="recent-post__meta">
-                            <span class="body__description body__description--span recent-post__headline--span1">12 Feb 2020</span>
-                            <span class="body__description body__description--span recent-post__headline--span2">Icon Design</span>
+                            <span class="recent-post__date">12 Feb 2020</span>
+                            <span class="line"></span>
+                            <span class="recent-post__tags">Icon Design</span>
                         </div>
-                        <p class="body__description recent-post__inner--item1">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="feature-works">
-            <div class="body__container">
-                <h2 class="body__headline">Feature Works</h2>
+            <div class="container">
+                <h2 class="headline">Feature Works</h2>
 
                 <div class="feature-works__block">
-                    <div class="feature-works__img">
-                        <a class="feature-works__link" href="worksdetail.html" alt="hinh-anh-cho-bai-viet">
-                            <img class="feature-works__img--img" src="./img/dahsboard-design-best-practices-example.png" alt="">
-                        </a>
-                    </div>
+                    <a class="feature-works__link" href="worksdetail.html">
+                        <img class="feature-works__img" src="./img/dahsboard-design-best-practices-example.png" alt="hinh-anh-cho-bai-viet">
+                    </a>
 
                     <div class="feature-works__item">
-                        <h3 class="body__headline feature-works_headline--item1">Designing Dashboards</h3>
+                        <h3 class="headline feature-works_headline">Designing Dashboards</h3>
                         <div class="feature-works__meta">
-                            <div class="feature-works__design">
-                                <span class="feature-works__design--detail">2020</span>
-                            </div>
-                            <span class="feature-works__description--span">Dashboard</span>
+                            <span class="feature-works__date">2020</span>
+                            <span class="tags--font">Dashboard</span>
                         </div>
-                        <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
 
                 <div class="feature-works__block">
-                    <div class="feature-works__img">
-                        <a class="feature-works__link" href="worksdetail.html" alt="hinh-anh-cho-bai-viet">
-                            <img class="feature-works__img--img" src="./img/dahsboard-design-best-practices-example.png" alt="">
-                        </a>
-                    </div>
+                    <a class="feature-works__link" href="worksdetail.html">
+                        <img class="feature-works__img" src="./img/dahsboard-design-best-practices-example.png" alt="hinh-anh-cho-bai-viet">
+                    </a>
 
                     <div class="feature-works__item">
-                        <h3 class="body__headline feature-works_headline--item1">Designing Dashboards</h3>
+                        <h3 class="headline feature-works_headline">Designing Dashboards</h3>
                         <div class="feature-works__meta">
-                            <div class="feature-works__design">
-                                <span class="feature-works__design--detail">2020</span>
-                            </div>
-                            <span class="feature-works__description--span">Dashboard</span>
+                            <span class="feature-works__date">2020</span>
+                            <span class="tags--font">Dashboard</span>
                         </div>
-                        <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
 
                 <div class="feature-works__block">
-                    <div class="feature-works__img">
-                        <a class="feature-works__link" href="worksdetail.html" alt="hinh-anh-cho-bai-viet">
-                            <img class="feature-works__img--img" src="./img/dahsboard-design-best-practices-example.png" alt="">
-                        </a>
-                    </div>
+                    <a class="feature-works__link" href="worksdetail.html">
+                        <img class="feature-works__img" src="./img/dahsboard-design-best-practices-example.png" alt="hinh-anh-cho-bai-viet">
+                    </a>
 
                     <div class="feature-works__item">
-                        <h3 class="body__headline feature-works_headline--item1">Designing Dashboards</h3>
+                        <h3 class="headline feature-works_headline">Designing Dashboards</h3>
                         <div class="feature-works__meta">
-                            <div class="feature-works__design">
-                                <span class="feature-works__design--detail">2020</span>
-                            </div>
-                            <span class="feature-works__description--span">Dashboard</span>
+                            <span class="feature-works__date">2020</span>
+                            <span class="tags--font">Dashboard</span>
                         </div>
-                        <p class="body__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
+
+                 <div class="feature-works__block">
+                    <a class="feature-works__link" href="worksdetail.html">
+                        <img class="feature-works__img" src="./img/dahsboard-design-best-practices-example.png" alt="hinh-anh-cho-bai-viet">
+                    </a>
+
+                    <div class="feature-works__item">
+                        <h3 class="headline feature-works_headline">Designing Dashboards</h3>
+                        <div class="feature-works__meta">
+                            <span class="feature-works__date">2020</span>
+                            <span class="tags--font">Dashboard</span>
+                        </div>
+                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+
             </div>
         </section> 
     </main>
 
     <footer>
-        <div class="body__container">
+        <div class="container">
             <div class="footer__content">
-                <div class="footer__block">
-                    <a href="" class="footer__block--link"><img src="./img/icon/fb.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/insta.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/Group.png" alt=""></a>
-                    <a href="" class="footer__block--link"><img src="./img/icon/Linkedin.png" alt=""></a>
-                </div>
-                <p>Copyright ©2020 All rights reserved</p>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/fb.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/insta.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/Group.png" alt=""></a></li>
+                        <li class="footer__item"><a href="" class="footer__item--link"><img src="./img/icon/Linkedin.png" alt=""></a></li>
+                    </ul>
+                <p class="footer__descripton">Copyright ©2020 All rights reserved</p>
             </div>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
 </html>
