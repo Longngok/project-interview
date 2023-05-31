@@ -58,6 +58,11 @@ body{
     line-height: 29px;
 }
 
+.tag--color
+    {
+        color: #8695A4;
+    }
+
 .line
 {
     height: 21px;
@@ -324,6 +329,11 @@ body{
     margin: 0 auto;
     margin-top: 160px;
 }
+.blog__container
+{
+    width: 681px;
+    margin: 0 auto;
+}
 
 .blog__block
 {
@@ -337,7 +347,7 @@ body{
     text-decoration: none;
 }
 
-.blog__title
+.blog__headline
 {
     font-style: normal;
     font-weight: 500;
@@ -374,7 +384,12 @@ body{
     margin: 0 auto;
     width: 682px;
     margin-top: 160px;
-    margin-bottom: 109px;
+}
+
+.works__container
+{
+    margin: 0 auto;
+    width: 682px;
 }
 
 .works__title
@@ -473,7 +488,7 @@ body{
     align-items: center;
     gap: 26px;
 
-    margin-top: 83px auto 54px auto;
+    margin: 134px auto 54px auto;
 }
 
 .footer__list

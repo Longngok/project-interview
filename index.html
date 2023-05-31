@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><i class="fas fa-bars"></i></a>
-        <nav class="navbar">
+        <a href="#" onclick="toggleMenu(event)" class="toggle-icon"><img src="./img/menu.png" alt=""></a>
+        <nav class="navbar" id="navbar">
             <ul class="navbar__list">
                 <li class="navbar__list--item"><a class="navbar__link"  href="works.html">Works</a></li>
                 <li class="navbar__list--item"><a class="navbar__link"  href="blog.html">Blog</a></li>
@@ -28,14 +28,12 @@
             <div class="container container--responsive">
                 <div class="banner__content">
                     <div class="banner__block">
-                        <h1 class="title">Hi, I am John, Creative Technologist</h1>
+                        <h1 class="title title--responsive">Hi, I am John, Creative Technologist</h1>
                         <p class="description description--responsive">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                         <a href="" class="banner__link">Download resume</a>
                     </div>
 
-                    <div>
-                        <img class="banner__img"  src="./img/ai-image-enlarger-1-after-2.jpg" alt="anh-dai dien">
-                    </div>
+                    <img class="banner__img"  src="./img/Ellipse 1.png" alt="anh-dai dien">
                 </div>
             </div>
         </section>
@@ -55,7 +53,7 @@
                             <span class="line"></span>
                             <span class="recent-post__tags">Design, Pattern</span>
                         </div>
-                        <p class="descriptionecent-post__inner--item1"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description feature-works__inner"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
 
                     <div class="recent-post__block">
@@ -65,7 +63,7 @@
                             <span class="line"></span>
                             <span class="recent-post__tags">Icon Design</span>
                         </div>
-                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description feature-works__inner">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
             </div>
@@ -73,7 +71,7 @@
 
         <section class="feature-works">
             <div class="container">
-                <h2 class="headline">Feature Works</h2>
+                <h2 class="headline feature-works__title">Feature Works</h2>
 
                 <div class="feature-works__block">
                     <a class="feature-works__link" href="worksdetail.html">
@@ -84,9 +82,9 @@
                         <h3 class="headline feature-works_headline">Designing Dashboards</h3>
                         <div class="feature-works__meta">
                             <span class="feature-works__date">2020</span>
-                            <span class="tags--font">Dashboard</span>
+                            <span class="tags--font tag--color">Dashboard</span>
                         </div>
-                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description feature-works__inner">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
 
@@ -99,9 +97,9 @@
                         <h3 class="headline feature-works_headline">Designing Dashboards</h3>
                         <div class="feature-works__meta">
                             <span class="feature-works__date">2020</span>
-                            <span class="tags--font">Dashboard</span>
+                            <span class="tags--font tag--color">Dashboard</span>
                         </div>
-                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description feature-works__inner">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
 
@@ -114,9 +112,9 @@
                         <h3 class="headline feature-works_headline">Designing Dashboards</h3>
                         <div class="feature-works__meta">
                             <span class="feature-works__date">2020</span>
-                            <span class="tags--font">Dashboard</span>
+                            <span class="tags--font tag--color">Dashboard</span>
                         </div>
-                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description feature-works__inner">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
 
@@ -129,9 +127,9 @@
                         <h3 class="headline feature-works_headline">Designing Dashboards</h3>
                         <div class="feature-works__meta">
                             <span class="feature-works__date">2020</span>
-                            <span class="tags--font">Dashboard</span>
+                            <span class="tags--font tag--color">Dashboard</span>
                         </div>
-                        <p class="description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <p class="description feature-works__inner">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                     </div>
                 </div>
 
@@ -153,6 +151,6 @@
         </div>
     </footer>
 
-    <script src="./script.js"></script>
+    <script src="./JS/script.js"></script>
 </body>
 </html>
