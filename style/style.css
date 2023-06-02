@@ -178,6 +178,8 @@ body{
     width: 24.3em;
     height: 24.3em;
 
+    box-shadow: -0.5em 1.3em #EDF7FA;
+
     border-radius: 50%;
 
     object-fit: cover;
